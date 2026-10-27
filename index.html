@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POSify — Next-Gen Restaurant Management ERP</title>
+    <!-- Premium Inter & Plus Jakarta Fonts (Fixed Links) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Link to Separate CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- 1. Premium Sticky Navigation -->
+    <header>
+        <div class="logo">Skip<span>POS</span></div>
+        <nav class="nav-links">
+            <a href="#features">Core Features</a>
+            <a href="#previews">Interface Tour</a>
+            <a href="#pricing">Subscription Pricing</a>
+            <a href="#contact">Get in Touch</a>
+        </nav>
+        <a href="https://wa.me!" class="cta-nav" target="_blank">Request Live Demo</a>
+    </header>
+
+    <!-- 2. Premium Hero Section with Gradient Mesh Background -->
+    <section class="hero-section">
+        <div class="hero-badge">✨ Multi-Branch Restaurant ERP System</div>
+        <h1>The Intelligent POS Built for Growing Food Brands</h1>
+        <p>Take absolute control over counter billing, kitchen automation workflows, and live stock tracking with an
+            incredibly smooth, zero-latency cloud system.</p>
+        <div class="hero-buttons">
+            <a href="https://wa.me." class="btn-primary" target="_blank">Start 14-Day Free Trial</a>
+            <a href="#previews" class="btn-secondary">Explore Dashboard</a>
+        </div>
+    </section>
+
+    <!-- 3. Enterprise Features Grid -->
+    <section id="features" class="features-section">
+        <div class="section-header">
+            <span class="sub-tag">Performance Operations</span>
+            <h2>Engineered to Survive Your Peak Rush Hours</h2>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="icon-wrap">⚡</div>
+                <h3>High-Velocity Checkout</h3>
+                <p>Process walk-in or delivery bills in milliseconds. Clean interface optimized for keyboard shortcuts.
+                </p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-wrap">🖨️</div>
+                <h3>Intelligent KOT Routing</h3>
+                <p>Direct system mapping to specific kitchen preparation counters without print dropping issues.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-wrap">📦</div>
+                <h3>Automatic Stock Deductions</h3>
+                <p>Simple inventory reconciliation. Your retail stock counters deplete automatically upon checkout.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-wrap">🛡️</div>
+                <h3>Anti-Theft Auditing</h3>
+                <p>Track voids, cancelations, and employee cash register adjustments with enterprise security logs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Modern Glassmorphic App Previews -->
+    <section id="previews" class="previews-section">
+        <div class="section-header">
+            <span class="sub-tag">Visual Tour</span>
+            <h2>A Workspace Your Staff Will Love Using</h2>
+        </div>
+        <div class="previews-container">
+            <div class="preview-card">
+                <div class="glass-window">
+                    <div class="window-dots"><span></span><span></span><span></span></div>
+                    <div class="mock-image">
+                        <img src="/images/dashboard.png" alt="POS Workspace">
+                    </div>
+                </div>
+                <h3>Point-of-Sale Workspace</h3>
+            </div>
+            <div class="preview-card">
+                <div class="glass-window">
+                    <div class="window-dots"><span></span><span></span><span></span></div>
+                    <div class="mock-image">
+                        <img src="/images/reporting.png" alt="Management Analytics">
+                    </div>
+                </div>
+                <h3>Live Management Reporting</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Sleek Pricing Module -->
+    <section id="pricing" class="pricing-section">
+        <div class="section-header">
+            <span class="sub-tag">Transparent Pricing</span>
+            <h2>Simple Scale Packages, No Hidden Fees</h2>
+        </div>
+
+        <div class="toggle-wrapper">
+            <span>Billed Monthly</span>
+            <label class="premium-switch">
+                <input type="checkbox" id="billingToggle">
+                <span class="slider-round"></span>
+            </label>
+            <span class="annual-text">Billed Annually <mark>Save 2 Months 🎁</mark></span>
+        </div>
+
+        <div class="pricing-container">
+            <!-- Basic Pack -->
+            <div class="tier-card">
+                <div class="tier-header">
+                    <h3>Basic Package</h3>
+                    <p>Essential checkout setup for micro cafés, kiosks, and beverage spots.</p>
+                </div>
+                <div class="tier-price">
+                    <span class="currency">Rs.</span>
+                    <span class="amount" id="basicPrice">2,000</span>
+                    <span class="period" id="basicPeriod">/mo</span>
+                </div>
+                <ul class="tier-features">
+                    <li>High-Speed Counter POS Screen</li>
+                    <li>Automated KOT Printer Routing</li>
+                    <li>Live Open Pending Orders Tracker</li>
+                    <li>Paid Cash Transactions Ledger</li>
+                    <li>Unlimited Products & Categories</li>
+                    <li class="locked">Customer CRM Profiles</li>
+                    <li class="locked">Riders Delivery Tracker</li>
+                    <li class="locked">Simple Stock Count Tracker</li>
+                    <li class="locked">Live Profit & Loss Audits</li>
+                </ul>
+                <a href="https://wa.me" class="btn-tier" target="_blank">Deploy Basic Setup</a>
+            </div>
+
+            <!-- Standard Pack (Most Popular Elite Look) -->
+            <div class="tier-card tier-featured">
+                <div class="popular-ribbon">Most Popular Architecture</div>
+                <div class="tier-header">
+                    <h3>Standard Package</h3>
+                    <p>Advanced feature set built for high-scale fast food setups and bakeries.</p>
+                </div>
+                <div class="tier-price">
+                    <span class="currency">Rs.</span>
+                    <span class="amount" id="standardPrice">4,000</span>
+                    <span class="period" id="standardPeriod">/mo</span>
+                </div>
+                <ul class="tier-features">
+                    <li>High-Speed Counter POS Screen</li>
+                    <li>Automated KOT Printer Routing</li>
+                    <li>Live Open Pending Orders Tracker</li>
+                    <li>Paid Cash Transactions Ledger</li>
+                    <li>Unlimited Products & Categories</li>
+                    <li>Customer CRM Profiles</li>
+                    <li>Riders Delivery Tracker</li>
+                    <li>Simple Stock Count Tracker</li>
+                    <li class="locked">Live Profit & Loss Audits</li>
+                </ul>
+                <a href="https://wa.me" class="btn-tier elite" target="_blank">Deploy Standard Setup</a>
+            </div>
+
+            <!-- Premium Pack -->
+            <div class="tier-card">
+                <div class="tier-header">
+                    <h3>Premium ERP</h3>
+                    <p>Complete multi-tier branch monitoring and deep corporate accounting tools.</p>
+                </div>
+                <div class="tier-price">
+                    <span class="currency">Rs.</span>
+                    <span class="amount" id="premiumPrice">6,500</span>
+                    <span class="period" id="premiumPeriod">/mo</span>
+                </div>
+                <ul class="tier-features">
+                    <li>High-Speed Counter POS Screen</li>
+                    <li>Automated KOT Printer Routing</li>
+                    <li>Live Open Pending Orders Tracker</li>
+                    <li>Paid Cash Transactions Ledger</li>
+                    <li>Unlimited Products & Categories</li>
+                    <li>Customer CRM Profiles</li>
+                    <li>Riders Delivery Tracker</li>
+                    <li>Simple Stock Count Tracker</li>
+                    <li>Live Profit & Loss Audits</li>
+                </ul>
+                <!-- FIXED: WhatsApp API Link with Text Routing Setup -->
+                <a href="https://wa.me" class="btn-tier" target="_blank">Deploy Full ERP Suite</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Ultra-Premium Footer -->
+    <footer id="contact">
+        <!-- FIXED: Wrapped correctly inside footer containers -->
+        <div class="footer-wrap">
+            <h2>Ready to Modernize Your Food Enterprise?</h2>
+            <p>Our technical team handles full system onboarding, inventory migration, and staff hardware layout
+                configurations within 24 hours.</p>
+            <div class="meta-contacts">
+                <div class="meta-item"><span>📞</span> Corporate Hotline: +92 3094766237</div>
+                <div class="meta-item"><span>✉️</span> Enterprise Support: support@skippos.xyz</div>
+                <div class="meta-item"><span>📍</span> Tech Lab HQ: Faisalabad, Pakistan</div>
+            </div>
+            <!-- FIXED: Added Missing Main Premium Green Footer CTA Button -->
+            <a href="https://wa.me." class="btn-whatsapp" target="_blank">Connect via Enterprise WhatsApp</a>
+            <div class="copyright-bar">
+                <p>&copy; 2026 SkipPOS Pakistan. Built for high-volume hospitality. Managed via secure distributed
+                    networks.</p>
+            </div>
+        </div> <!-- FIXED: Closed the missing div block wrapper -->
+    </footer>
+
+    <!-- Link to Separate JS File -->
+    <script src="script.js"></script>
+</body>
+
+</html>
